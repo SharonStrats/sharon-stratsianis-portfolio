@@ -1,0 +1,52 @@
+.project-card {
+  position: relative;
+  height: 40vh;
+  background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.6), rgba($color-secondary-dark, 0.6));
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  border-radius: 3px;
+  //padding: 2rem;
+  transition: transform .3s;
+  color: $color-primary-dark;
+  font-weight: bold;
+  
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+  &__title {
+    text-align: center;
+    border-bottom: 1.5px solid $color-primary-dark;
+    //background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.7), rgba($color-secondary-dark, 0.7));
+    color: $color-primary-dark;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto; 
+  }
+  &__content {
+    margin-bottom: 5rem;
+    padding: 1rem;
+  }
+  &__link {
+    display: block;
+    background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.3), rgba($color-secondary-dark, 0.3));
+    color: $color-primary-dark;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 1rem;
+    transition: transform .8s;
+    position: absolute;
+    bottom: 1rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    
+    &:hover {
+      transform: translateY(-1rem) scale(1);
+    }
+    &--project {
+      left: 2rem;
+    }
+    &--code {
+      right: 2rem;
+    } 
+  }
+
+}

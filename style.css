@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #110f10;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: #fff;
+  padding: 3rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header__image {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom,rgba(83, 16, 83, 0.8), rgba(126, 36, 168, 0.8)), url(img/pexels-nout-gons-248159.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 97% 0, 97% 70vh , 0 100%);
+  text-align: center;
+  padding: 8rem;
+  position: absolute;
+}
+
+#header__text-box {
+  position: absolute;
+  display: block; 
+  padding-right: 2rem;
+  top: 85vh;
+  right: 1rem;
+  left: 40%;
+  font-style: italic;
+  text-align: right;
+}
+.header__title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  animation: moveInLeft 2s ease-out;
+}
+
+.header__role {
+  animation: moveInRight 2s ease-out;
+}
+
+.header__quote {
+  display: block;
+}
+.header__quote--main {
+ /* left: 40%; */
+}
+
+.header__quote--author {
+  font-style: normal;
+}
+
+.new-section {
+  position: absolute;
+  display: block;
+  margin-top: 60rem;
+}
+.degrees {
+}
+.links {
+  margin-top: 2rem;
+}
+.links a {
+  margin-right: 2rem;
+}
+footer {
+  position: absolute;
+  margin-top: 75rem;
+}
+
+.footer {
+  /* Not sure why but this doesn't center the text */
+  text-align: center;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+/* a little bounce at end */
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+/* a little bounce at end */
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@media screen and (min-width: 992px) {
+  .text-box {
+    left: 50%;
+  }
+}

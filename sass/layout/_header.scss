@@ -1,0 +1,44 @@
+.header {
+  height: 95vh;
+  position: relative;
+  background-image: linear-gradient(to right bottom,rgba($color-primary-dark, 0.8), rgba($color-primary-dark, 0.8)), url(../img/pexels-nout-gons-248159.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 70vh , 0 100%);
+  text-align: center;
+  padding: 8rem;
+  
+
+    &__text-box {
+    position: absolute;
+    display: block; 
+    padding-right: 2rem;
+    top: 85vh;
+    right: 1rem;
+    left: 40%;
+    font-style: italic;
+    text-align: right;
+  }
+  &__title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    animation: moveInLeft 2s ease-out;
+    margin-bottom: 6rem;
+  }
+
+  &__role {
+    animation: moveInRight 2s ease-out;
+  }
+
+  &__quote {
+    display: block;
+  }
+  &__quote--main {
+  /* left: 40%; */
+  }
+
+  &__quote--author {
+    font-style: normal;
+  }
+}

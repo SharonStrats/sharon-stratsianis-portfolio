@@ -1,0 +1,29 @@
+// This class on a div wrapped around another element set as
+// display: inline-block will center the text in that internal element
+.u-center-text {
+  text-align: center;
+}
+.u-align-left {
+  float: left;
+}
+.u-align-right {
+  float: right;
+}
+.u-text-italic {
+  font-style: italic;
+}
+.u-dark-text {
+  color: black;
+}
+.u-white-text {
+  color: $color-white;
+}
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}

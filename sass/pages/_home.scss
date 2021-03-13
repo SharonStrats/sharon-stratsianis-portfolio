@@ -1,0 +1,55 @@
+.section-skills {
+  padding: 2rem 2rem 5rem;
+  text-align: center;
+  border-bottom: 1px solid rgba($color-black, .2);
+}
+
+.section-projects {
+  margin: 7rem 0;
+  text-align: center;
+
+  &__content {
+    background-image: linear-gradient(to top,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.8) );
+    //, url(../img/pexels-pixabay-417174.jpg)
+    background-size: cover;
+    background-position: top;
+    //margin-top: 2rem;
+    padding: 10rem;
+    transform: skewY(-7deg);
+     
+    //because we may add more than feature
+    //so select the direct child and skew it back
+    //so that only the background is now skewed.
+    & > * {
+      transform: skewY(7deg);
+    }
+  }
+}
+
+.section-education {
+  margin: 1rem 1rem;
+  color: $color-primary-dark;
+  font-size: 1.7rem;
+  font-weight: 700;
+  p {
+    text-align: right;
+  }
+  @include clearfix;
+}
+
+.section-links {
+  
+  a { 
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  ul li {
+    display: inline-block;
+    
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  @include clearfix;
+}
