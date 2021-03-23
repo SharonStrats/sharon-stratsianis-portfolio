@@ -8,7 +8,7 @@ body {
 }
 
 .heading-secondary {
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -16,7 +16,7 @@ body {
   background-color: $color-primary-dark;
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   padding: 0 2rem;
   //border-bottom: 3px solid $color-primary-light;
   box-shadow: 2rem 1rem 3rem rgba($color-black, .3);

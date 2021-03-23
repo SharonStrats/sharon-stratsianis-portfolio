@@ -1,6 +1,7 @@
 .project-card {
   position: relative;
-  background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.6), rgba($color-secondary-dark, 0.6));
+  //background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.2), rgba($color-secondary-dark, 0.5));
+  //background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.2), rgba($color-secondary-dark, 0.5));
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
   border-radius: 3px;
   display: grid;
@@ -8,7 +9,8 @@
   grid-template-rows: min-content 38rem min-content;
   justify-items: center;
   transition: transform .3s;
-  color: $color-primary-dark;
+  //color: $color-tertiary-dark;
+  color: #fff;
   font-weight: bold;
   padding: 2rem;
   
@@ -18,7 +20,8 @@
   &__title {
     grid-column: 1 / span 2;
     border-bottom: 1.5px solid $color-primary-dark;
-    color: $color-primary-dark;
+    //color: $color-primary-dark;
+    color: #fff;
     padding: 1rem;
   }
   &__content {
@@ -29,7 +32,8 @@
   }
   &__link {
     display: block;
-    background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.3), rgba($color-secondary-dark, 0.3));
+    //background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.3), rgba($color-secondary-dark, 0.3));
+    background-color: white;
     color: $color-primary-dark;
     border-radius: 3px;
     text-decoration: none;
@@ -50,7 +54,7 @@
       right: 2rem;
     } 
     &--notactive {
-      background-color: grey;
+      background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.8), rgba($color-secondary-dark, 0.8));;
       pointer-events: none;
     }
   }

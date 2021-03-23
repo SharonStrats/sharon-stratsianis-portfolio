@@ -1,10 +1,9 @@
 .section-skills {
-  padding: 2rem 2rem 5rem;
   text-align: center;
   border-bottom: 1px solid rgba($color-black, .2);
-  padding: 10rem 3rem;
+  padding: 3rem 3rem 12rem 3rem;
   &__content {
-    background-image: linear-gradient(to top,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.8) );
+    background-image: linear-gradient(to left bottom,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.6) );
     transform: skewY(-7deg);
   }
   &__cards {
@@ -16,17 +15,18 @@
     justify-content: space-between;
     align-content: flex-start;
     transform: skewY(7deg);
-    padding: 10rem;
+    padding: 15rem 10rem;
      
   }
 }
 .section-projects {
   margin: 7rem 0;
-  padding: 2rem 2rem 5rem;
+  padding: 2rem 2rem 15rem;
   text-align: center;
+  border-bottom: 1px solid rgba($color-black, .2);
 
   &__content {
-    background-image: linear-gradient(to top,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.8) );
+    background-image: linear-gradient(to left bottom,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.6) );
     background-size: cover;
     background-position: top;
     //margin-top: 2rem;

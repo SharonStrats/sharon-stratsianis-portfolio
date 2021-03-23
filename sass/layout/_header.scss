@@ -1,7 +1,8 @@
 .header {
   height: 95vh;
   position: relative;
-  background-image: linear-gradient(to right bottom,rgba($color-primary-dark, 0.8), rgba($color-primary-dark, 0.8)), url(../img/pexels-nout-gons-248159.jpg);
+  background-image: linear-gradient(to right bottom,rgba(#6c3467, 0.2), rgba(#6c3467, 0.2)), url(../img/pexels-nout-gons-248159.jpg);
+  //background-image: url(../img/pexels-nout-gons-248159.jpg);
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 70vh , 0 100%);
@@ -25,7 +26,8 @@
     text-transform: uppercase;
     font-weight: 700;
     animation: moveInLeft 2s ease-out;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
   }
 
   &__role {
