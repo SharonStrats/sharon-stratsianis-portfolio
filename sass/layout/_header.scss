@@ -19,6 +19,7 @@
     font-style: italic;
     text-align: right;
   }
+
   &__title {
     font-size: 5rem;
     text-transform: uppercase;
@@ -28,14 +29,16 @@
   }
 
   &__role {
+    font-size: 4rem;
     animation: moveInRight 2s ease-out;
+  }
+
+  &__interests {
+    font-size: 1.5rem;
   }
 
   &__quote {
     display: block;
-  }
-  &__quote--main {
-  /* left: 40%; */
   }
 
   &__quote--author {

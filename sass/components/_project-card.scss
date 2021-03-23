@@ -1,30 +1,31 @@
 .project-card {
   position: relative;
-  height: 40vh;
   background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.6), rgba($color-secondary-dark, 0.6));
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
   border-radius: 3px;
-  //padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 15rem);
+  grid-template-rows: min-content 38rem min-content;
+  justify-items: center;
   transition: transform .3s;
   color: $color-primary-dark;
   font-weight: bold;
+  padding: 2rem;
   
-
   &:hover {
-    transform: translateY(-1.5rem) scale(1.03);
+    transform: translateY(-1rem) scale(1.03);
   }
   &__title {
-    text-align: center;
+    grid-column: 1 / span 2;
     border-bottom: 1.5px solid $color-primary-dark;
-    //background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.7), rgba($color-secondary-dark, 0.7));
     color: $color-primary-dark;
     padding: 1rem;
-    width: 80%;
-    margin: 0 auto; 
   }
   &__content {
+    width: 90%;
     margin-bottom: 5rem;
     padding: 1rem;
+    grid-column: 1 / span 2;
   }
   &__link {
     display: block;
@@ -33,13 +34,14 @@
     border-radius: 3px;
     text-decoration: none;
     padding: 1rem;
-    transition: transform .8s;
+    transition: transform .5s;
+    width: 40%;
     position: absolute;
     bottom: 1rem;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     
     &:hover {
-      transform: translateY(-1rem) scale(1);
+      transform: translateY(-.5rem);
     }
     &--project {
       left: 2rem;
@@ -47,6 +49,9 @@
     &--code {
       right: 2rem;
     } 
+    &--notactive {
+      background-color: grey;
+      pointer-events: none;
+    }
   }
-
 }

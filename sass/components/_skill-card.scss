@@ -1,5 +1,4 @@
 .skill-card {
-  height: 45vh;
   background-color: $color-grey-light-1;
   //background: linear-gradient(to bottom left, $color-secondary-dark, $color-secondary-light 90%);
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
@@ -20,10 +19,10 @@
     width: 80%;
     margin: 0 auto; //centers a block element inside another block element
     li  {
-      border-bottom: 1px solid #E0E0E0;
-      &:not(:last-child) {
-        margin-bottom: 1.5rem;
-        
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #E0E0E0;   
+      &:not(:last-child) { 
+       
       }
       
     }

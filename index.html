@@ -18,10 +18,8 @@
 <body>
   <header class="header">
     <h1 class="header__title">Sharon Stratsianis</h1>
-    <h2 class="header__role">Software Engineer</h2>
-    <h3>Passionate about all aspects of building distributed systems.
-
-    </h3>
+    <h2 class="header__role">Full Stack Software Engineer</h2>
+    <h3 class="header__interests">Passionate about all aspects of building distributed systems.</h3>
   </header>
   <div class="header__text-box">
     <span class="header__quote header__quote--main">Patience and perseverance</span>
@@ -32,127 +30,149 @@
   <main>
     <section class="section-skills">
       <h2 class="heading-secondary u-margin-bottom-medium ">Skills</h2>
-      <div class="row">
-        <div class="col-1-of-4">
-          <div class="skill-card">
-            <h3 class="heading-tertiary skill-card__title">Frontend</h3>
-            <ul class="skill-card__items">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SASS</li>
-              <li>React</li>
-            </ul>
-          </div>
+      <div class="section-skills__content">
+        <div class="section-skills__cards">
+        <div class="skill-card">
+          <h3 class="heading-tertiary skill-card__title">Frontend</h3>
+          <ul class="skill-card__items">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>React</li>
+          </ul>
         </div>
-        <div class="col-1-of-4">
-          <div class="skill-card u-color-purple">
-            <h3 class="heading-tertiary  skill-card__title">Backend</h3>
-            <ul class="skill-card__items">
-              <li>NodeJS</li>
-              <li>SQL and NoSQL Databases</li>
-              <li>Mongo, Firebase, SQLServer</li>
-            </ul>
-          </div>
+        <div class="skill-card u-color-purple">
+          <h3 class="heading-tertiary  skill-card__title">Backend</h3>
+          <ul class="skill-card__items">
+            <li>NodeJS</li>
+            <li>SQL and NoSQL Databases</li>
+            <li>Mongo, Firebase, SQLServer</li>
+            <li>Linked Data</li>
+          </ul>
         </div>
-        <div class="col-1-of-4">
-          <div class="skill-card u-color-green">
-            <h3 class="heading-tertiary skill-card__title">Languages</h3>
-            <ul class="skill-card__items">
-              <li>JavaScript</li>
-              <li>Java</li>
-              <li>Python</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
+        <div class="skill-card u-color-green">
+          <h3 class="heading-tertiary skill-card__title">Languages</h3>
+          <ul class="skill-card__items">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+          </ul>
         </div>
-        <div class="col-1-of-4">
-          <div class="skill-card u-color-yellow">
-            <h3 class="heading-tertiary skill-card__title">Tools</h3>
-            <ul class="skill-card__items">
-              <li> AWS</li>
-              <li>Git</li>
-              <li>Travis</li>
-              <li>Docker</li>
-            </ul>
-          </div>
+        <div class="skill-card u-color-yellow">
+          <h3 class="heading-tertiary skill-card__title">DevOps</h3>
+          <ul class="skill-card__items">
+            <li>AWS</li>
+            <li>Docker</li>
+          </ul>
+        </div>
         </div>
       </div>
     </section>
     <section class="section-projects">
       <h2 class="heading-secondary u-margin-bottom-medium">Projects</h2>
       <div class="section-projects__content">
-        <div class="row">
-          <div class="col-1-of-3">
-            <div class="project-card">
-              <h3 class="project-card__title heading-tertiary u-margin-bottom-small">SOLID Project</h3>
-              <div class="project-card__content">
-                <p>Involves: Linked Data</p>
-              </div>
-              <a class="project-card__link project-card__link--project" href="">Check it out</a>
-              <a class="project-card__link project-card__link--code" href="">Check out the code</a>
-            </div>
+        <div class="section-projects__cards">
+        <div class="project-card">
+          <h3 class="project-card__title heading-tertiary u-margin-bottom-small">SolidOS Open Source</h3>
+          <div class="project-card__content">
+            <p>
+              SolidOS is an Operating System for Linked Data.
+              <a href="https://solidproject.org/">Solid</a>  and 
+              <a href="https://en.wikipedia.org/wiki/Linked_data">Linked Data</a>
+              are two important technologies that will allow us to have more
+              control over our own data, hopefully in the near future. 
+              The SolidOS system allows multiple applications
+              to exist in one Operating System all using the same data in different ways
+              and for different reasons. I am working to improve the code base.
+              When you first learn about this it can feel a bit overwhelming to imagine a future
+              where you can interact with your data all from one location and one login.
+              If you are interested, <a href="https://www.digita.ai/">Digita</a> have some great videos explaining it all 
+              <a href="https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g">here</a>
+            </p>
           </div>
-          <div class="col-1-of-3">
-            <div class="project-card">
-              <h3 class="heading-tertiary project-card__title  u-margin-bottom-small">Multiplication Game</h3>
-              <div class="project-card__content">
-                <p>Multiplication Game created for a project in my distributed algorithms
-                  unit.
-                </p>
-                <p>Details: React, Suzuki Kasami, Socket.io</p>
-              </div>
-              <a class="project-card__link project-card__link--project" href="">Check it out</a>
-              <a class="project-card__link project-card__link--code" href="">Check out the code</a>
-            </div>
-          </div>
-          <div class="col-1-of-3">
-            <div class="project-card">
-              <h3 class="heading-tertiary project-card__title  u-margin-bottom-small">Sigmafy</h3>
-              <div class="project-card__content">
-                <p>Multiplication Game created for a project in my distributed algorithms
-                  unit.
-                </p>
-                <p>Details: React, Suzuki Kasami, Socket.io</p>
-              </div>
-              <a class="project-card__link project-card__link--project" href="">Check it out</a>
-              <a class="project-card__link project-card__link--code" href="">Check out the code</a>
-            </div>
-          </div>
+            <a class="project-card__link project-card__link--project" href="https://solidproject.org/users/get-a-pod">Check it out</a>
+            <a class="project-card__link project-card__link--code" href="https://github.com/solid/solidos">Code</a>
         </div>
-        <div class="row">
-          <div class="col-1-of-3">
-            <div class="project-card">
-              <h3 class="project-card__title heading-tertiary u-margin-bottom-small">Nim Sys Game</h3>
-              <div class="project-card__content">
-                <p>Game created for Java unit.
-                </p>
-                <p>Details: Java</p>
-              </div>
-              <a class="project-card__link project-card__link--project" href="">Check it out</a>
-              <a class="project-card__link project-card__link--code" href="">Check out the code</a>
-            </div>
+        <div class="project-card">
+          <h3 class="heading-tertiary project-card__title  u-margin-bottom-small">Multiplication Game</h3>
+          <div class="project-card__content">
+            <p>This is a realtime multiplication game that allows children to play with other children 
+              to help learn their multiplication tables. The game displays a problem and 
+              gives a few options and the child needs to select the correct answer.
+              The game uses the Suzuki Kasami Distributed Algorithm to pass a token around
+              at the end of the game to give access to the critical section of determining
+              who wins. If all children had the same result the child who pressed the 
+              Play Button first would win the game.
+            </p>
+            <p>Built with: React, Suzuki Kasami, Socket.io</p>
           </div>
-          <div class="col-1-of-3">
-            <div class="project-card">
-              <h3 class="project-card__title heading-tertiary u-margin-bottom-small">Party Game</h3>
-              <div class="project-card__content">
-                <p>Used: Android/Java, Firebase</p>
-              </div>
-              <a class="project-card__link project-card__link--project" href="">Check it out</a>
-              <a class="project-card__link project-card__link--code" href="">Check out the code</a>
-            </div>
-          </div>
-          <div class="col-1-of-3">
-            <div class="project-card">
-              <h3 class="project-card__title heading-tertiary u-margin-bottom-small">Party Game</h3>
-              <div class="project-card__content">
-                <p>Used: Android/Java, Firebase</p>
-              </div>
-              <a class="project-card__link project-card__link--project" href="">Check it out</a>
-              <a class="project-card__link project-card__link--code" href="">Check out the code</a>
-            </div>
-          </div>
+          <a class="project-card__link project-card__link--project project-card__link--notactive" href="">Coming soon</a>
+          <a class="project-card__link project-card__link--code" href="https://github.com/SharonStrats/multiplication-game-realtime">Code</a>
         </div>
+        <div class="project-card">
+          <h3 class="heading-tertiary project-card__title  u-margin-bottom-small">Sigmafy</h3>
+          <div class="project-card__content">
+            <p>Sigmafy is an application built on the <a href="https://solidproject.org/">Solid</a> 
+              Node Server. It uses the Solid specification and Linked Data concepts to see
+              how we can have fine-grained access control to a users location.
+              A user's location gets stored at three different specificity levels and the user
+              can control which app and people get access to a particular specificity.
+            </p>
+            <p>Built with: React, Solid, Linked Data</p>
+          </div>
+          <a class="project-card__link project-card__link--project project-card__link--notactive" href="">Coming soon</a>
+          <a class="project-card__link project-card__link--code" href="https://github.com/SharonStrats/SOLIDLBSPrototype">Code</a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-card__title heading-tertiary u-margin-bottom-small">Nim Sys Game</h3>
+          <div class="project-card__content">
+            <p>Game created for a Masters Java unit.
+            </p>
+            <p>Built with: Java</p>
+          </div>
+          <a class="project-card__link project-card__link--project project-card__link--notactive" href="">Not Available</a>
+          <a class="project-card__link project-card__link--code" href="https://github.com/SharonStrats/ProjectC">Code</a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-card__title heading-tertiary u-margin-bottom-small">Party Game</h3>
+          <div class="project-card__content">
+            <p>This is a game you can play on an Android phone. It consists of many little games that make up
+              a match. The mini games all use different sensors. Some examples are shaking the phone, turning the 
+              phone to landscape, screaming. This was a team project. I wrote the backend using Firebase Realtime 
+              database, Cloud messaging, and Firebase functions (serverless).
+            </p>
+            <p>Built with: Android/Java, Firebase</p>
+          </div>
+          <a class="project-card__link project-card__link--project project-card__link--notactive" href="">Not Available</a>
+          <a class="project-card__link project-card__link--code project-card__link--notactive" href="">Code On Request</a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-card__title heading-tertiary u-margin-bottom-small">Tic Tac Toe</h3>
+          <div class="project-card__content">
+            <p>Created a Realtime Tic Tac Toe game that has both a server and a client. Two people can play
+              at a time. The board is a typical 3 * 3 grid, but can be extended. The client code is linked below,
+              however you can find the server code from the same Github account.
+            </p>
+            <p>Built with: React, NodeJS, Socket.io</p>
+          </div>
+          <a class="project-card__link project-card__link--project project-card__link--notactive" href="">Not Available</a>
+          <a class="project-card__link project-card__link--code" href="https://github.com/SharonStrats/tic-tac-toe-client">Client Code</a>
+        </div>
+        <div class="project-card">
+          <h3 class="project-card__title heading-tertiary u-margin-bottom-small">International Meeting Scheduler</h3>
+          <div class="project-card__content">
+            <p>Created an international meeting scheduler using Luxon. Wanted to play around with this in order
+              to get something working to help with a future project of adding timezone to Solid as Linked Data 
+              and extending it to be able to show and schedule times for Solid users around the world.
+            </p>
+            <p>Built with: Javascript, CSS, HTML</p>
+          </div>
+          <a class="project-card__link project-card__link--project project-card__link--notactive" href="">Coming soon</a>
+          <a class="project-card__link project-card__link--code" href="https://github.com/SharonStrats/international-meeting-scheduler">Code</a>
+        </div>
+      </div>
       </div>
     </section>
     <section class="section-education">
@@ -174,7 +194,7 @@
               class="large linkedin icon footer__icon"></i></a></li>
       </ul>
     </section>
-    <p class="footer__text">Copyright &copy; 2020, All Rights Reserved</p>
+    <p class="footer__text">Copyright &copy; 2021, All Rights Reserved</p>
   </footer>
 </body>
 
