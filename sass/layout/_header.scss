@@ -15,11 +15,20 @@
     animation: moveInLeft 2s ease-out;
     margin-top: 3rem;
     margin-bottom: 8rem;
+    @media screen and (max-width: 600px) {
+      font-size: 4rem;
+      padding: 2rem;
+    }
   }
 
   &__role {
     font-size: 4rem;
     animation: moveInRight 2s ease-out;
+
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+      padding: 2rem;
+    }
   }
 
   &__interests {
@@ -40,9 +49,11 @@
   }
   &__quote {
     display: block;
+
   }
   &__quote--sub {
     display: block;
+
   }
   &__quote--author {
     display: block;

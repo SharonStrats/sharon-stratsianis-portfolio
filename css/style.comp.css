@@ -211,9 +211,17 @@ body {
     animation: moveInLeft 2s ease-out;
     margin-top: 3rem;
     margin-bottom: 8rem; }
+    @media screen and (max-width: 600px) {
+      .header__title {
+        font-size: 4rem;
+        padding: 2rem; } }
   .header__role {
     font-size: 4rem;
     animation: moveInRight 2s ease-out; }
+    @media screen and (max-width: 600px) {
+      .header__role {
+        font-size: 3rem;
+        padding: 2rem; } }
   .header__interests {
     font-size: 1.5rem; }
   .header__text-box {
