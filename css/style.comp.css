@@ -235,8 +235,14 @@ body {
     left: 50vw;
     font-style: italic;
     text-align: right; }
+    @media screen and (max-width: 600px) {
+      .header__text-box {
+        padding-top: 2rem; } }
   .header__quote {
     display: block; }
+    @media screen and (max-width: 600px) {
+      .header__quote {
+        font-size: 1.4rem; } }
   .header__quote--sub {
     display: block; }
   .header__quote--author {

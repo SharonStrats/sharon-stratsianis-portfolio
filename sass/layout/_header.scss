@@ -46,10 +46,16 @@
     left: 50vw;
     font-style: italic;
     text-align: right;
+
+    @media screen and (max-width: 600px) {
+      padding-top: 2rem;
+    }
   }
   &__quote {
     display: block;
-
+    @media screen and (max-width: 600px) {
+      font-size: 1.4rem;
+    }
   }
   &__quote--sub {
     display: block;
