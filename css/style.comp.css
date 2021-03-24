@@ -217,17 +217,20 @@ body {
     margin-bottom: 8rem; }
     @media screen and (max-width: 600px) {
       .header__title {
-        font-size: 4rem;
-        padding: 2rem; } }
+        font-size: 4rem; } }
   .header__role {
     font-size: 4rem;
     animation: moveInRight 2s ease-out; }
     @media screen and (max-width: 600px) {
       .header__role {
-        font-size: 3rem;
-        padding: 2rem; } }
+        font-size: 3rem; } }
   .header__interests {
     font-size: 1.5rem; }
+    @media screen and (max-width: 600px) {
+      .header__interests {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden; } }
   .header__text-box {
     position: absolute;
     display: flex;

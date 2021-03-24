@@ -21,7 +21,6 @@
     margin-bottom: 8rem;
     @media screen and (max-width: 600px) {
       font-size: 4rem;
-      padding: 2rem;
     }
   }
 
@@ -31,12 +30,17 @@
 
     @media screen and (max-width: 600px) {
       font-size: 3rem;
-      padding: 2rem;
     }
   }
 
   &__interests {
     font-size: 1.5rem;
+
+    @media screen and (max-width: 600px) {
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
   }
 
   &__text-box {
