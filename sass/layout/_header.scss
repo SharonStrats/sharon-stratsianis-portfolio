@@ -7,6 +7,9 @@
   clip-path: polygon(0 0, 100% 0, 100% 70vh , 0 100%);
   text-align: center;
   padding: 8rem 0 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &__title {
     font-size: 5rem;
