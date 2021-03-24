@@ -203,7 +203,7 @@ body {
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
   text-align: center;
-  padding: 8rem; }
+  padding: 8rem 0 8rem; }
   .header__title {
     font-size: 5rem;
     text-transform: uppercase;
