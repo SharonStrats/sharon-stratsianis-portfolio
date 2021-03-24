@@ -205,7 +205,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center; }
+  text-align: center;
+  align-content: center;
+  margin-bottom: 8rem; }
   .header__title {
     font-size: 5rem;
     text-transform: uppercase;
