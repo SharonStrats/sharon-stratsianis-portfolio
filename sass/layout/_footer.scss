@@ -2,7 +2,7 @@
 .footer {
   /* Not sure why but this doesn't center the text */
   justify-content: center;
-  background-image: linear-gradient(to top,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.8) );
+  background: $color-primary-dark;
   color: $color-white;
   width: 100%;
   padding: 2rem;

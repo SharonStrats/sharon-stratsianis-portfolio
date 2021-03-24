@@ -1,41 +1,14 @@
-.section-skills {
-  text-align: center;
-  border-bottom: 1px solid rgba($color-black, .2);
-  padding: 3rem 3rem 12rem 3rem;
-  &__content {
-    background-image: linear-gradient(to left bottom,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.6) );
-    transform: skewY(-7deg);
-  }
-  &__cards {
-    display: grid;
-    grid-auto-flow: row;
-    grid-auto-rows: min-content;
-    grid-template-columns: repeat(auto-fit, 20rem);
-    grid-gap: 2em;
-    justify-content: space-between;
-    align-content: flex-start;
-    transform: skewY(7deg);
-    padding: 15rem 10rem;
-     
-  }
-}
 .section-projects {
-  margin: 7rem 0;
-  padding: 2rem 2rem 15rem;
   text-align: center;
   border-bottom: 1px solid rgba($color-black, .2);
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 
   &__content {
-    background-image: linear-gradient(to left bottom,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 0.6) );
-    background-size: cover;
-    background-position: top;
-    //margin-top: 2rem;
-    padding: 10rem;
-    transform: skewY(-7deg);
+    background: linear-gradient(to bottom right,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 1.0) );
+    clip-path: polygon(0 30vh, 100% 0,  100% 100%, 0 100%);
   }
-    //because we may add more than feature
-    //so select the direct child and skew it back
-    //so that only the background is now skewed.
+
     &__cards {
       display: grid;
       grid-auto-flow: row;
@@ -43,17 +16,38 @@
       grid-template-columns: repeat(auto-fit, minmax(min-content, 30rem));
       grid-template-rows: repeat(2, min-content);
       justify-content: center;
-      align-content: flex-start;
       grid-gap: 2em;
-      transform: skewY(7deg);
+      padding: 20em 10em 10em;
+      //margin-top: 100px;
     }
 }
+.section-skills {
+  text-align: center;
+  border-bottom: 1px solid rgba($color-black, .2);
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 
+  &__content {
+    background: linear-gradient(to bottom right,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 1.0) ); }
+
+  &__cards {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    grid-gap: 4em;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 10rem;
+     
+  }
+}
 .section-education {
-  margin: 1rem 1rem;
   color: $color-primary-dark;
   font-size: 1.7rem;
   font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   p {
     text-align: right;
   }
