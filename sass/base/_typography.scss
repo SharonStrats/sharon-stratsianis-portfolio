@@ -3,10 +3,13 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: $color-white;
+  color: $color-almost-white;
   padding: 3rem;
   a {
-    color: $color-tertiary-dark;
+    color: 	#909090;
+  }
+  a:hover {
+    color: $color-secondary-dark;
   }
 }
 

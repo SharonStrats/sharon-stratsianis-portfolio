@@ -1,6 +1,5 @@
 .skill-card {
   background-color: $color-grey-light-1;
-  //background: linear-gradient(to bottom left, $color-secondary-dark, $color-secondary-light 90%);
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
   text-align: center;
   transition: transform 1s;
@@ -12,19 +11,15 @@
     background-image: linear-gradient(to left bottom, rgba($color-secondary-light, 0.8), rgba($color-secondary-dark, 0.8));
     margin-bottom: 2rem;
     color: $color-primary-dark;
-   
   }
+
   &__items {
     list-style: none;
     width: 80%;
     margin: 0 auto; //centers a block element inside another block element
     li  {
       margin-bottom: 1.5rem;
-      border-bottom: 1px solid #E0E0E0;   
-      &:not(:last-child) { 
-       
-      }
-      
+      border-bottom: 1px solid #E0E0E0;    
     }
   }
   h3 {

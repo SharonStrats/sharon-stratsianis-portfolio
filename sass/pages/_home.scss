@@ -5,8 +5,10 @@
   padding-bottom: 6rem;
 
   &__content {
-    background: linear-gradient(to bottom right,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 1.0) );
+    background-image: linear-gradient(to right bottom,rgba($color-primary-dark, 1.0), rgba($color-primary-light , 0.9)), url(../img/pexels-pixabay-417174.jpg);
     clip-path: polygon(0 30vh, 100% 0,  100% 100%, 0 100%);
+    background-size: cover;
+    background-position: top;
   }
 
     &__cards {
@@ -28,8 +30,11 @@
   padding-bottom: 6rem;
 
   &__content {
-    background: linear-gradient(to bottom right,rgba($color-primary-light, 0.8) ,rgba($color-primary-dark, 1.0) ); }
-
+    background-image: linear-gradient(to bottom right,rgba($color-primary-light, 0.9) ,rgba($color-primary-dark, 1.0)), url(../img/jong-marshes-79mNMAvSORg-unsplash.jpg); 
+    background-size: cover;
+    background-position: top;
+  }
+    
   &__cards {
     display: grid;
     grid-auto-flow: row;
