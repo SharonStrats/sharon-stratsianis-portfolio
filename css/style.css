@@ -265,6 +265,9 @@ body {
     justify-content: center;
     grid-gap: 2em;
     padding: 20em 10em 10em; }
+    @media screen and (max-width: 600px) {
+      .section-projects__cards {
+        padding: 10em 5em 10em; } }
 
 .section-skills {
   text-align: center;

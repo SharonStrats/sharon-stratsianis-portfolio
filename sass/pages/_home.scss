@@ -20,7 +20,9 @@
       justify-content: center;
       grid-gap: 2em;
       padding: 20em 10em 10em;
-      //margin-top: 100px;
+      @media screen and (max-width: 600px) {
+        padding: 10em 5em 10em;
+      }
     }
 }
 .section-skills {
